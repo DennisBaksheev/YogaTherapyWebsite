@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&family=Archivo+Narrow:wght@400;700&display=swap');
 
+
+
 .main-section {
   display: flex;
   flex-direction: column;
@@ -10,7 +12,7 @@
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-.top-nav {
+  .top-nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -22,7 +24,13 @@
   font-family: 'Staatliches', cursive;
   font-size: 50px;
   letter-spacing: 20px;
+  
 }
+
+
+
+
+
 
 /* Hero Banner Styles */
 .hero-banner {
@@ -31,6 +39,8 @@
   align-items: center; /* Vertically centers the content in the flex container */
   text-align: center;
   font-size: 30px;
+
+  
 }
 
 /* Responsive adjustments for medium screens/tablets */
@@ -39,6 +49,7 @@
     font-size: 25px;
     max-width: 100%;
     text-align: center;
+    
   }
   .top-nav {
     font-size: 30px; /* Smaller font size for medium screens */
@@ -50,15 +61,18 @@
     align-items: center;
     text-align: center;
     padding: 50px 30px; /* Consistent padding for all sections */
+    font-family: 'Barlow Semi Condensed', sans-serif;
   }
 }
 
 /* Responsive adjustments for small screens/phones */
 @media (max-width: 480px) {
   .hero-banner {
+    
     font-size: 25px;
-    max-width: 100%;
+    max-width:100%;
     text-align: center;
+    
   }
   .top-nav {
     font-size: 20px; /* Even smaller font size for small screens */
@@ -70,6 +84,7 @@
     align-items: center;
     text-align: center;
     padding: 50px 30px; /* Consistent padding for all sections */
+    font-family: 'Barlow Semi Condensed', sans-serif;
   }
   .aboutSection img {
     width: 325px; 
@@ -78,22 +93,46 @@
     margin-left: 100px; 
     margin-right: 100px;
   }
+  
+  
 }
-
-.offeringsSection,
-.contactSection,
-.aboutSection {
+.offeringsSection {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  
+
 }
+
+
+
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+
+
+
+.aboutSection {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  flex-direction: column;
+  
+  
+}
+
+
 
 .aboutSection p {
   max-width: 41%; /* Adjust based on your design preference */
   margin-top: 15px;
   text-align: left;
   font-size: 19px;
+  
 }
 
 /* Responsive adjustments */
@@ -102,9 +141,11 @@
     flex-direction: column; /* Stack them on smaller screens */
   }
 
+  
   .aboutSection p {
     max-width: 100%;
     text-align: left;
+    
   }
   .aboutSection img {
     width: 325px; 
@@ -113,20 +154,52 @@
     margin-left: 100px; 
     margin-right: 100px;
   }
+  
 }
 
-.button-image-one,
-.button-image-two,
-.button-image-three,
-.button-image-four,
-.button-image-five {
-  width: 44px;  /* Adjust as needed */
+
+
+
+
+.button-image-one {
+  width: 40px;  /* Example size, adjust as needed */
   height: auto;
   cursor: pointer;  /* Indicates the image is clickable */
   padding: 20px;
 }
 
+.button-image-two {
+  width: 50px;  /* Example size, adjust as needed */
+  height: auto;
+  cursor: pointer;  /* Indicates the image is clickable */
+  padding: 20px;
+}
+
+.button-image-three {
+  width: 63px;  /* Example size, adjust as needed */
+  height: auto;
+  cursor: pointer;  /* Indicates the image is clickable */
+  padding: 20px;
+}
+
+.button-image-four {
+  width: 70px;  /* Example size, adjust as needed */
+  height: auto;
+  cursor: pointer;  /* Indicates the image is clickable */
+  padding: 20px;
+}
+
+.button-image-five {
+  width: 44px;  /* Example size, adjust as needed */
+  height: auto;
+  cursor: pointer;  /* Indicates the image is clickable */
+  padding: 20px;
+}
+
+
 .greetingSection {
   padding: 20px;
   text-align: center;
+ 
+
 }
