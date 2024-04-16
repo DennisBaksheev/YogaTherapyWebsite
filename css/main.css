@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&family=Archivo+Narrow:wght@400;700&display=swap');
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px 30px; /* Consistent padding for all sections */
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #dc3add; 
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+  font-size: 50px;
+  letter-spacing: 20px;
+}
+
+/* Hero Banner Styles */
+.hero-banner {
+  display: flex;
+  justify-content: center; /* Horizontally centers the content in the flex container */
+  align-items: center; /* Vertically centers the content in the flex container */
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Responsive adjustments for medium screens/tablets */
+@media (max-width: 768px) {
+  .hero-banner {
+    font-size: 25px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .top-nav {
+    font-size: 30px; /* Smaller font size for medium screens */
+    letter-spacing: 3px;
+  }
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 30px; /* Consistent padding for all sections */
+  }
+}
+
+/* Responsive adjustments for small screens/phones */
+@media (max-width: 480px) {
+  .hero-banner {
+    font-size: 25px;
+    max-width: 100%;
+    text-align: center;
+  }
+  .top-nav {
+    font-size: 20px; /* Even smaller font size for small screens */
+    letter-spacing: 3px;
+  }
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 30px; /* Consistent padding for all sections */
+  }
+  .aboutSection img {
+    width: 325px; 
+    height: 440px;
+    padding: 20px; 
+    margin-left: 100px; 
+    margin-right: 100px;
+  }
+}
+
+.offeringsSection,
+.contactSection,
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.aboutSection p {
+  max-width: 41%; /* Adjust based on your design preference */
+  margin-top: 15px;
+  text-align: left;
+  font-size: 19px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .aboutSection {
+    flex-direction: column; /* Stack them on smaller screens */
+  }
+
+  .aboutSection p {
+    max-width: 100%;
+    text-align: left;
+  }
+  .aboutSection img {
+    width: 325px; 
+    height: 440px;
+    padding: 20px; /* Fixed padding syntax */
+    margin-left: 100px; 
+    margin-right: 100px;
+  }
+}
+
+.button-image-one,
+.button-image-two,
+.button-image-three,
+.button-image-four,
+.button-image-five {
+  width: 44px;  /* Adjust as needed */
+  height: auto;
+  cursor: pointer;  /* Indicates the image is clickable */
+  padding: 20px;
+}
+
+.greetingSection {
+  padding: 20px;
+  text-align: center;
+}
